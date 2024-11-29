@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		629C875E2CFA8C070013B0ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629C87422CFA8C060013B0ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 629C87492CFA8C060013B0ED;
+			remoteInfo = "simufisica-tv-os-demo";
+		};
+		629C87682CFA8C070013B0ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629C87422CFA8C060013B0ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 629C87492CFA8C060013B0ED;
+			remoteInfo = "simufisica-tv-os-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		629C874A2CFA8C060013B0ED /* simufisica-tv-os-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simufisica-tv-os-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629C875D2CFA8C070013B0ED /* simufisica-tv-os-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simufisica-tv-os-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629C87672CFA8C070013B0ED /* simufisica-tv-os-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simufisica-tv-os-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		629C874C2CFA8C060013B0ED /* simufisica-tv-os-demo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "simufisica-tv-os-demo";
+			sourceTree = "<group>";
+		};
+		629C87602CFA8C070013B0ED /* simufisica-tv-os-demoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "simufisica-tv-os-demoTests";
+			sourceTree = "<group>";
+		};
+		629C876A2CFA8C070013B0ED /* simufisica-tv-os-demoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "simufisica-tv-os-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		629C87472CFA8C060013B0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629C875A2CFA8C070013B0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629C87642CFA8C070013B0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629C87412CFA8C060013B0ED = {
+			isa = PBXGroup;
+			children = (
+				629C874C2CFA8C060013B0ED /* simufisica-tv-os-demo */,
+				629C87602CFA8C070013B0ED /* simufisica-tv-os-demoTests */,
+				629C876A2CFA8C070013B0ED /* simufisica-tv-os-demoUITests */,
+				629C874B2CFA8C060013B0ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		629C874B2CFA8C060013B0ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				629C874A2CFA8C060013B0ED /* simufisica-tv-os-demo.app */,
+				629C875D2CFA8C070013B0ED /* simufisica-tv-os-demoTests.xctest */,
+				629C87672CFA8C070013B0ED /* simufisica-tv-os-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		629C87492CFA8C060013B0ED /* simufisica-tv-os-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629C87712CFA8C070013B0ED /* Build configuration list for PBXNativeTarget "simufisica-tv-os-demo" */;
+			buildPhases = (
+				629C87462CFA8C060013B0ED /* Sources */,
+				629C87472CFA8C060013B0ED /* Frameworks */,
+				629C87482CFA8C060013B0ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				629C874C2CFA8C060013B0ED /* simufisica-tv-os-demo */,
+			);
+			name = "simufisica-tv-os-demo";
+			packageProductDependencies = (
+			);
+			productName = "simufisica-tv-os-demo";
+			productReference = 629C874A2CFA8C060013B0ED /* simufisica-tv-os-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		629C875C2CFA8C070013B0ED /* simufisica-tv-os-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629C87742CFA8C070013B0ED /* Build configuration list for PBXNativeTarget "simufisica-tv-os-demoTests" */;
+			buildPhases = (
+				629C87592CFA8C070013B0ED /* Sources */,
+				629C875A2CFA8C070013B0ED /* Frameworks */,
+				629C875B2CFA8C070013B0ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629C875F2CFA8C070013B0ED /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				629C87602CFA8C070013B0ED /* simufisica-tv-os-demoTests */,
+			);
+			name = "simufisica-tv-os-demoTests";
+			packageProductDependencies = (
+			);
+			productName = "simufisica-tv-os-demoTests";
+			productReference = 629C875D2CFA8C070013B0ED /* simufisica-tv-os-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		629C87662CFA8C070013B0ED /* simufisica-tv-os-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629C87772CFA8C070013B0ED /* Build configuration list for PBXNativeTarget "simufisica-tv-os-demoUITests" */;
+			buildPhases = (
+				629C87632CFA8C070013B0ED /* Sources */,
+				629C87642CFA8C070013B0ED /* Frameworks */,
+				629C87652CFA8C070013B0ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629C87692CFA8C070013B0ED /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				629C876A2CFA8C070013B0ED /* simufisica-tv-os-demoUITests */,
+			);
+			name = "simufisica-tv-os-demoUITests";
+			packageProductDependencies = (
+			);
+			productName = "simufisica-tv-os-demoUITests";
+			productReference = 629C87672CFA8C070013B0ED /* simufisica-tv-os-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629C87422CFA8C060013B0ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					629C87492CFA8C060013B0ED = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					629C875C2CFA8C070013B0ED = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 629C87492CFA8C060013B0ED;
+					};
+					629C87662CFA8C070013B0ED = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 629C87492CFA8C060013B0ED;
+					};
+				};
+			};
+			buildConfigurationList = 629C87452CFA8C060013B0ED /* Build configuration list for PBXProject "simufisica-tv-os-demo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 629C87412CFA8C060013B0ED;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 629C874B2CFA8C060013B0ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				629C87492CFA8C060013B0ED /* simufisica-tv-os-demo */,
+				629C875C2CFA8C070013B0ED /* simufisica-tv-os-demoTests */,
+				629C87662CFA8C070013B0ED /* simufisica-tv-os-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		629C87482CFA8C060013B0ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629C875B2CFA8C070013B0ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629C87652CFA8C070013B0ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		629C87462CFA8C060013B0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629C87592CFA8C070013B0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629C87632CFA8C070013B0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		629C875F2CFA8C070013B0ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 629C87492CFA8C060013B0ED /* simufisica-tv-os-demo */;
+			targetProxy = 629C875E2CFA8C070013B0ED /* PBXContainerItemProxy */;
+		};
+		629C87692CFA8C070013B0ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 629C87492CFA8C060013B0ED /* simufisica-tv-os-demo */;
+			targetProxy = 629C87682CFA8C070013B0ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		629C876F2CFA8C070013B0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Debug;
+		};
+		629C87702CFA8C070013B0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		629C87722CFA8C070013B0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CQ5T9K3MFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.simufisica-tv-os-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		629C87732CFA8C070013B0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CQ5T9K3MFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.simufisica-tv-os-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		629C87752CFA8C070013B0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CQ5T9K3MFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.simufisica-tv-os-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simufisica-tv-os-demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/simufisica-tv-os-demo";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Debug;
+		};
+		629C87762CFA8C070013B0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CQ5T9K3MFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.simufisica-tv-os-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simufisica-tv-os-demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/simufisica-tv-os-demo";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Release;
+		};
+		629C87782CFA8C070013B0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CQ5T9K3MFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.simufisica-tv-os-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "simufisica-tv-os-demo";
+			};
+			name = Debug;
+		};
+		629C87792CFA8C070013B0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CQ5T9K3MFD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.simufisica-tv-os-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "simufisica-tv-os-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		629C87452CFA8C060013B0ED /* Build configuration list for PBXProject "simufisica-tv-os-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629C876F2CFA8C070013B0ED /* Debug */,
+				629C87702CFA8C070013B0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629C87712CFA8C070013B0ED /* Build configuration list for PBXNativeTarget "simufisica-tv-os-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629C87722CFA8C070013B0ED /* Debug */,
+				629C87732CFA8C070013B0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629C87742CFA8C070013B0ED /* Build configuration list for PBXNativeTarget "simufisica-tv-os-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629C87752CFA8C070013B0ED /* Debug */,
+				629C87762CFA8C070013B0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629C87772CFA8C070013B0ED /* Build configuration list for PBXNativeTarget "simufisica-tv-os-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629C87782CFA8C070013B0ED /* Debug */,
+				629C87792CFA8C070013B0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629C87422CFA8C060013B0ED /* Project object */;
+}
