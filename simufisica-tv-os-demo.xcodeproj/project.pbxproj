@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		629C877D2CFA8C9E0013B0ED /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 629C877C2CFA8C9E0013B0ED /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		629C875E2CFA8C070013B0ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		629C874A2CFA8C060013B0ED /* simufisica-tv-os-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simufisica-tv-os-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		629C875D2CFA8C070013B0ED /* simufisica-tv-os-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simufisica-tv-os-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		629C87672CFA8C070013B0ED /* simufisica-tv-os-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simufisica-tv-os-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629C877C2CFA8C9E0013B0ED /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				629C87602CFA8C070013B0ED /* simufisica-tv-os-demoTests */,
 				629C876A2CFA8C070013B0ED /* simufisica-tv-os-demoUITests */,
 				629C874B2CFA8C060013B0ED /* Products */,
+				629C877C2CFA8C9E0013B0ED /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				629C877D2CFA8C9E0013B0ED /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
